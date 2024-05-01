@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background:whitesmoke;
+}
+
+.header {
+background-color:#FFAFD5;
+height: 65px;
+}
+
+
+.container-icon nav{
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px;
+}
+
+.nav-card{
+  display: none;
+}
+
+.container-icon nav button{
+  display: none;
+}
+
+.nav-card li {
+  list-style: none;
+  padding: 1rem;
+  font-weight: bold;
+}
+
+.container-icon nav i:hover > .buy-card{
+  width: 750px;
+  height: 350px;
+  position: absolute;
+  right: 0;
+  background-color: #ffff;
+}
+
+.container-icon nav i:hover .nav-card{
+  font-size: 0.5em;
+  display: flex;
+  justify-content: space-between;
+  letter-spacing: 1px;
+  margin: 0 1px 0 1px;
+  border-bottom: solid thin #e1e1e1;
+}
+
+.container-icon nav i:hover .buy-card > button{
+display: block;
+width: 80%;
+padding: 1rem;
+margin: 10px auto;
+background-color: transparent;
+border: solid thin #e1e1e1;
+color: #494848;
+cursor: pointer;
+}
+
+.container-icon nav i:hover .buy-card > button:hover{
+  border: solid thin #494848;
+  transition:all .3s;
+}
+
+.container-icon nav i {
+   font-size: 5rem;
+   cursor: pointer;
+   color:black;
+   font-size: 50px;
+   margin-top: -30px;
+   transform: translateY(-25px);
+}
+
+h1{
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+  cursor: pointer;
+  color: #884660;
+  font-size: 50px;
+}
+
+.container{
+min-height: 400px;
+display:inline;
+}
+
+a{
+  text-decoration:none ;
+  color: #000;
+  font-family: 'Dancing Script', cursive;
+  font-size: 40px;
+}
+
+ul{
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  background-color:#FFAFD5;
+  padding: 10px 50px;
+  margin-bottom: 50px;
+  }
+
+h3{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    color: #884660;
+    font-size: 60px;
+    margin-bottom: -40px;
+    font-size: 50px;
+    font-weight: 100;
+}
+
+  p{
+  font-size: 25px;
+  color: #000;
+  margin: 80px;
+  text-decoration: none;
+  font-family: 'Dancing Script', cursivé;
+  }

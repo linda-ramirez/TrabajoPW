@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background:whitesmoke;
+}
+
+.header {
+background-color:#FFAFD5;
+height: 65px;
+}
+
+
+.container-icon nav{
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px;
+}
+
+.nav-card{
+  display: none;
+}
+
+.container-icon nav button{
+  display: none;
+}
+
+.nav-card li {
+  list-style: none;
+  padding: 1rem;
+  font-weight: bold;
+}
+
+.container-icon nav i:hover > .buy-card{
+  width: 750px;
+  height: 350px;
+  position: absolute;
+  right: 0;
+  background-color: #ffff;
+}
+
+.container-icon nav i:hover .nav-card{
+  font-size: 0.5em;
+  display: flex;
+  justify-content: space-between;
+  letter-spacing: 1px;
+  margin: 0 1px 0 1px;
+  border-bottom: solid thin #e1e1e1;
+}
+
+.container-icon nav i:hover .buy-card > button{
+display: block;
+width: 80%;
+padding: 1rem;
+margin: 10px auto;
+background-color: transparent;
+border: solid thin #e1e1e1;
+color: #494848;
+cursor: pointer;
+}
+
+.container-icon nav i:hover .buy-card > button:hover{
+  border: solid thin #494848;
+  transition:all .3s;
+}
+
+.container-icon nav i {
+   font-size: 5rem;
+   cursor: pointer;
+   color:black;
+   font-size: 50px;
+   margin-top: -30px;
+   transform: translateY(-25px);
+}
+
+h1{
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+  cursor: pointer;
+  color: #884660;
+  font-size: 50px;
+}
+
+.container{
+min-height: 400px;
+display:inline;
+}
+
+a{
+  text-decoration:none ;
+  color: #000;
+  font-family: 'Dancing Script', cursive;
+  font-size: 40px;
+}
+
+ul{
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  background-color:#FFAFD5;
+  padding: 10px 50px;
+  margin-bottom: 50px;
+  }
+
+h3{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    color: #884660;
+    font-size: 60px;
+    margin-top: -1px;
+    font-size: 50px;
+    font-weight: 100;
+}
+
+  .container{
+    width: 100%;
+    max-width: 2200px;
+    height: 430px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    margin: auto;
+    margin-top: 30px;
+  }
+
+  .container .card{
+    width: 330px;
+    height: 400px;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.20);
+    overflow:hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.255;
+    padding: 20px;
+  }
+
+  .container .card:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 12px 16px rgb(240, 135, 200);
+  }
+
+  .container .card img{
+    width: 80%;
+    height: 210px;
+  }
+
+  .container .card h2{
+    font-weight: 600;
+    margin-top: 20px;
+  }
+
+  .container .card p{
+    font-size: 29px;
+    font-weight: 300;
+    padding: 0 1rem;
+  }
+
+  .container .card button{
+    font-size:22px;
+    border: none;
+    background: none;
+    background-color: transparent;
+    padding: 15px 10px;
+    cursor: pointer;
+  }

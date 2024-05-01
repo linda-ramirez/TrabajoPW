@@ -1,0 +1,376 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background:#F4F6F7 ;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.container-boton{
+  display: flex;
+  position: fixed;
+  z-index: 999;
+  right: 15px;
+  bottom:45px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  border: 15px solid #fff;
+  padding: 15px;
+  transition: ease 0.3s;
+  animation: efecto 1s infinite;
+  font-size: large;
+  line-height: 50px;
+  text-align: center;
+}
+
+.container-boton:hover{
+transform: scale(1,1);
+transition: 0.2s;
+}
+
+.boton{
+width: 60px;
+transition: ease 1s;
+
+}
+
+.boton{
+  width: 60px;
+  transition: ease 1s;
+  
+}
+
+@keyframes efecto {
+  0% {
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.85);
+  }
+
+  100%{
+    box-shadow: 0 0 0 2px rgba(110, 75, 75, 0);
+  }
+}  
+
+.header {
+  background-color:#FF89CF;
+  height: 35px;
+  }
+  
+.container-icon nav{
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px;
+
+}
+
+.nav-card{
+  display: none;
+}
+
+.container-icon nav button{
+  display: none;
+}
+
+.nav-card li {
+  list-style: none;
+  padding: 1rem;
+  font-weight: bold;
+  font-family:'Dancing Script', cursive ;
+  font-size: 2rem;
+}
+.header-inicio {
+  text-align: center;
+  height: 60vh !important;
+  background: url(img/fondo.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.header-inicio h4{
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+  cursor: pointer;
+  color: #900C3F;
+  font-size: 5rem;
+  position:absolute;
+  margin-top: 30px;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -59%);
+}
+.header-inicio .btn-1{
+  display: inline-block;
+  padding: 13px 25px;
+  background-color: #FF89CF;
+  color: #030301;
+  font-size: 2rem;
+  text-transform: capitalize;
+  position:absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, 2%);
+  margin-top: 80px;
+}
+.container-icon nav i:hover > .buy-card{
+  width: 750px;
+  height: 160px;
+  position: absolute;
+  right: 0;
+  background-color: #ffff;
+}
+
+.container-icon nav i:hover .nav-card{
+  font-size: 0.5em;
+  display: flex;
+  justify-content: space-between;
+  letter-spacing: 1px;
+  margin: 0 1px 0 1px;
+  border-bottom: solid thin #e1e1e1;
+}
+
+.container-icon nav i:hover .buy-card > button{
+display: block;
+width: 80%;
+padding: 1rem;
+margin: 10px auto;
+background-color: transparent;
+border: solid thin #e1e1e1;
+color: #494848;
+cursor: pointer;
+}
+
+.container-icon nav i:hover .buy-card > button:hover{
+  border: solid thin #494848;
+  transition:all .3s;
+}
+
+.container-icon nav i {
+   font-size: 3rem;
+   cursor: pointer;
+   color:black;
+   font-size: 30px;
+   margin-top: -30px;
+   transform: translateY(-25px);
+}
+
+h1{
+  font-family: 'Dancing Script', cursive;
+  cursor: pointer;
+  color: #900C3F;
+  font-size: 50px;
+  margin-top: 20px;
+  margin-bottom: -10px;
+}
+
+
+.container{
+min-height: 400px;
+display:inline;
+}
+
+a{
+  text-decoration:none ;
+  color: #000;
+  font-family: 'Dancing Script', cursive;
+  font-size: 250%;
+  font-weight: bold;
+}
+
+ul{
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  background-color: #FF89CF;
+  padding: 10px 50px;
+  }
+
+.header-info{
+  display: flex;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.header-txt{
+  width: 70%;
+  padding-right: 50px;
+  font-size: 5%;
+}
+
+.header-txt h2{
+  font-size: 60px;
+  line-height: 70px;
+  font-weight: 500;
+  color: #900C3F;
+  margin-bottom: 35px;
+  text-transform: capitalize;
+  margin: 35px;
+  font-family: 'Dancing Script', cursivé;
+}
+
+.header-txt p{
+  font-size: 30px;
+  color: #000;
+  margin: 55px;
+  text-decoration: none;
+  font-family: 'Dancing Script', cursivé;
+}
+
+.header-img{
+  width: 50%;
+  margin-top: 20px;
+}
+
+.header-img img{
+  width: 550px;
+  float:right;
+  margin-top: -75px;
+}
+
+
+.gallery{
+  background:whitesmoke;
+}
+
+.gallery h2{
+  font-size: 60px;
+  font-weight: 500;
+  color: #900C3F;
+  margin: 35px;
+  text-transform: capitalize;
+  font-family: 'Dancing Script', cursivé;
+  text-align: center;
+  margin-top: 190px;
+}
+
+.contenedor .card{
+  width: 210px;
+  height: 260px;
+  border-radius: 10px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  margin: 20px;
+  margin-left: 30px;
+  text-align: center;
+  display: inline-block;
+  transition: all 0.25s;
+  background-color:#F1D2E2;
+}
+
+.contenedor .card:hover{
+  transform: translateY(-15px);
+  box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+.contenedor .card img{
+  width: 150px;
+  height: 170px;
+  border-radius: 8px;
+}
+
+.contenedor .card h4{
+  font-weight: 30px;
+}
+
+.contenedor .card p{
+  padding: 0 2rem;
+  font-size: 2px;
+  font-weight: 200;
+}
+
+.contenedor .card a{
+  text-decoration:none;
+  color:black;
+  font-size: 20px;
+}
+
+.form-register {
+  width: 480px;
+  height: 530px;
+  background: #F7B1CE;
+  padding: 20px;
+  margin: auto;
+  margin-top: 150px;
+  margin-bottom: 85px;
+  border-radius: 5px;
+  font-family: 'calibri';
+  color: white;
+  box-shadow: 7px 13px 37px #000000;
+}
+
+.form-register h4 {
+  font-family: 'Dancing Script', cursivé;
+  font-size: 35px;
+  margin-bottom: 50px;
+}
+
+.controls {
+  width: 100%;
+  margin: auto;
+  background: #F7B1CE;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #900C3F;
+  font-family: 'calibri';
+  font-size: 28px;
+  color: white;
+}
+
+.form-register p {
+  height: 40px;
+  text-align: center;
+  font-size: 8px;
+  line-height: 20px;
+}
+
+.form-register a {
+  color: white;
+  text-decoration: none;
+}
+
+.form-register a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.form-register .botons {
+  width: 50%;
+  background: #713C51;
+  border: none;
+  padding: 12px;
+  color: white;
+  margin: 26px 0;
+  font-size: 26px;
+}
+
+
+.contact {
+  padding: 50px 0;
+  background: #FF89CF;
+  box-shadow: 7px 13px 37px #000;;
+  font-size: 30px;
+  line-height: 70px;
+  font-weight: 800;
+  color: #900C3F;
+  margin-bottom: 60px;
+  text-transform: capitalize;
+  font-family: 'Dancing Script', cursivé;
+}
+
+h1{
+  text-align: center;
+  font-family: 'Dancing Script', cursivé;
+  color: #900C3F;
+  font-weight: bold;
+}
+
+iframe{
+  margin-bottom: 50px;
+  width: 650px;
+  height: 620px;
+}
+
